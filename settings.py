@@ -20,3 +20,9 @@ class Settings():
 		self.bullet_color = 60, 60, 60
 		#屏幕上的子弹数量限制
 		self.bullets_allowed = 5
+
+		#外星人设置
+		self.alien_speed_factor = 1
+        self.fleet_drop_speed = 10
+        # 1表示右移 -1左移
+		self.fleet_direction = 1
